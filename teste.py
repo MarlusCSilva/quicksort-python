@@ -26,3 +26,4 @@ if __name__ == "__main__":
         print("\n Ordenado:")
         print(arr)
     print("*******************************")
+  #oi gatinhooooo i love uuu
