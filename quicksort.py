@@ -6,7 +6,7 @@ def quicksort(lista):
     maiores = [x for x in lista[1:] if x > pivo]
     return quicksort(menores) + [pivo] + quicksort(maiores)
 
-# Lista original
+# Lista não ordenada
 numeros = [7, 2, 9, 1, 15, 76, 3, 4, 5]
 
 # Ordenar com quicksort
