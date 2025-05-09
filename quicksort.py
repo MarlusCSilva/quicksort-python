@@ -43,6 +43,6 @@ position = busca_binaria(ordenada, numeroPd, 0, len(ordenada) - 1)
 
 # Verifica o resultado da busca e imprime a posição, se encontrada.
 if position != -1:
-    print(f"O número {numeroPd} foi encontrado na posição {posi}.")
+    print(f"O número {numeroPd} foi encontrado na posição {position}.")
 else:
     print(f"O número {numeroPd} não foi encontrado na lista de elementos.")
